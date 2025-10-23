@@ -2,7 +2,7 @@
 
 Este directorio contiene los artefactos que uso para desplegar la API RAG de mi proyecto principal. La arquitectura de producción es:
 
-- Frontend: GitHub Pages (sitio estático bajo `ale-uy.github.io`) — interfaz del chat.
+- Frontend: GitHub Pages (sitio estático bajo [ale-uy.github.io](https://ale-uy.github.io)) — interfaz del chat.
 - Servicio LLM: Hosted en Hugging Face Spaces (este repositorio `HF_space` corre la API FastAPI que conecta el LLM con el retriever).
 - Vector DB: Qdrant (instancia separada, mas información en [Tu_CV_Chatero](https://github.com/ale-uy/Tu_CV_Chatero)).
 
@@ -58,4 +58,5 @@ curl -X POST "https://mi-space.hf.space/ask" -H "Content-Type: application/json"
 #### Enlaces útiles (referencias externas)
 
 - Código fuente de la ingesta (ejemplos y más contexto): https://github.com/ale-uy/Tu_CV_Chatero
+
 - Interfaz pública / despliegue en GitHub Pages: https://ale-uy.github.io
