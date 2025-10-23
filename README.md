@@ -60,3 +60,8 @@ curl -X POST "https://mi-space.hf.space/ask" -H "Content-Type: application/json"
 - Código fuente de la ingesta (ejemplos y más contexto): https://github.com/ale-uy/Tu_CV_Chatero
 
 - Interfaz pública / despliegue en GitHub Pages: https://ale-uy.github.io
+
+- Hugging Face spaces donde desplegar el backend: https://huggingface.co/spaces
+
+- Langchain y su servicio Langsmith para monitoreo y evaluación: https://smith.langchain.com/
+
